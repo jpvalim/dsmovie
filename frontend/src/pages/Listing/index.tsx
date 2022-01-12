@@ -35,14 +35,7 @@ function Listing() {
                    
                 </div>
 
-               
-
             </div>
-
-            
-
-          
-
 
         </>
     );
