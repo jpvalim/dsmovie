@@ -18,7 +18,7 @@ function FormCard({ movieId }: Props) {
     useEffect(() => {
         axios.get(`${BASE_URL}/movies/${movieId}`)
             .then(response => (setMovie(response.data)))
-    })
+    },[])
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         //evita o carregamento da página novamente
